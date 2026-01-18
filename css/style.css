@@ -23,20 +23,20 @@
 body {
     display: flex;
     height: 100vh;
+    background-color: #f9fafb;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: 50px;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
 .content p {
     margin-bottom: 25px;
+    width: 800px;
 }
 
 .sidebar {
@@ -86,4 +86,71 @@ body {
     text-align: center;
     color: white;
     font-size: 0.8rem;
+}
+
+.white-box {
+    background-color: white;
+    box-shadow: 0 5px 5px grey; 
+    padding: 20px 50px 50px 50px;
+}
+
+.rest {
+    width:100%;
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: dimgray;
+    letter-spacing: 0.1rem;
+}
+
+.input-fields {
+    font-size: 1.2rem;
+    font-weight: normal;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 100px;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    outline: none;
+}
+
+.create-account {
+    margin: 50px 50px 30px 50px;
+    color: white;
+    font-size: 1rem;
+    background-color: #596D48;
+    border: 1px solid #596D48;
+    padding: 10px 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px grey;
+}
+
+a {
+    color: #596D48;
+    font-weight: bold;
+}
+
+.registered {
+    font-weight: normal;
+    font-size: 1.2rem;
+    padding-left: 50px;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+.intro {
+    padding-left: 50px;
+}
+
+input:focus {
+    border: 1px solid blue;
 }
